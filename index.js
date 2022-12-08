@@ -19,7 +19,7 @@ const PUPPETEER_OPTIONS = {
     ],
 };
 
-functions.http('helloHttp', async(req, res) => {
+functions.http('crawlSPA', async(req, res) => {
     res.setHeader("content-type", "application/json");
 
     try {
